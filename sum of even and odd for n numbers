@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+
+class Main{
+    public static void main(String[] args){
+        Scanner ob=new Scanner(System.in);
+        int n=ob.nextInt();
+        int sume=0;
+        int sumo=0;
+        for(int i=1;i<=n;i+=2){
+            sumo=sumo+i;
+        }
+        System.out.println("sum of odd numbers:"+sumo);
+        for(int i=2;i<=n;i+=2){
+            sume=sume+i;
+        }
+        System.out.println("sum of even numbers:"+sume);
+    }
+}

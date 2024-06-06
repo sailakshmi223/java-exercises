@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+
+class Main{
+    
+    public static void main(String[] args){
+        
+        Scanner ob=new Scanner(System.in);
+        float b=ob.nextFloat();
+        float h=ob.nextFloat();
+        float area=(b*h)/2;
+        System.out.println("area:"+area);
+        
+    }
+}

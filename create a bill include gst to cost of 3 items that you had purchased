@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+
+//Let GST be 18%
+
+class Main{
+    public static void main(String[] args){
+        Scanner ob=new Scanner(System.in);
+        float pen=ob.nextFloat();
+        float pencil=ob.nextFloat();
+        float ruler=ob.nextFloat();
+        float bill=pen+pencil+ruler;
+        float gst=(bill*18)/100;
+        float total_bill = bill+gst;
+        System.out.println(gst);
+        System.out.println("total bill:"+total_bill);
+        
+    }
+}

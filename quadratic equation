@@ -1,0 +1,16 @@
+import java.util.*;
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner ob=new Scanner(System.in);
+		double a=ob.nextDouble();
+		double b=ob.nextDouble();
+		double c=ob.nextDouble();
+		double r1=Math.sqrt(-b+((b*b)-4*a*c))/(2*a);
+		double r2=Math.sqrt(-b-((b*b)-4*a*c))/(2*a);
+		System.out.println("r1:"+r1);
+		System.out.println("r2:"+r2);
+	}
+}

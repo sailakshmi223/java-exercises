@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    int l,b,h;
+	    Scanner ob=new Scanner(System.in);
+	    l=ob.nextInt();
+	    b=ob.nextInt();
+	    h=ob.nextInt();
+	    int tot_area=2*(l*b+l*h+h*b);
+	    int vol=l*b*h;
+	    System.out.println("area :"+tot_area);
+	    System.out.println("volume:"+vol);
+	}
+}

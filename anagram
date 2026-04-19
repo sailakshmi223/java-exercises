@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner ob = new Scanner(System.in);
+		
+		String str1 = ob.nextLine();
+		String str2 = ob.nextLine();
+		
+		char a[] = str1.toCharArray();
+		char b[] = str2.toCharArray();
+		
+		Arrays.sort(a);
+		Arrays.sort(b);
+		
+		if(Arrays.equals(a, b)){
+		    System.out.println("Anagram");
+		}
+		else{
+		    System.out.println("Not Anagram");
+		}
+	}
+}

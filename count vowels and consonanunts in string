@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner ob=new Scanner(System.in);
+		String s="indu";
+		int v=0,c1=0;
+		for(int i=0;i<=s.length()-1;i++){
+		    char c=s.charAt(i);
+		    if(c=='i'||c=='e'||c=='a'||c=='o'||c=='u'){
+		        v++;
+		    }
+		    else{
+		        c1++;
+		    }
+		}
+		System.out.println("vowels:"+v);
+		System.out.println("consonaunts:"+c1);
+}
+}

@@ -1,0 +1,46 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner ob=new Scanner(System.in);
+		int n=ob.nextInt();
+		String str=Integer.toString(n);
+		
+		for(int x=str.length()-1;x>=0;x--){
+		    char i=str.charAt(x);
+		    if(i=='0'){
+		        System.out.print("zero ");
+		    }
+		    else if(i=='1'){
+		        System.out.print("one ");
+		    }
+		    else if(i=='2'){
+		        System.out.print("two ");
+		    }
+		    else if(i=='3'){
+		        System.out.print("three ");
+		    }
+		    else if(i=='4'){
+		        System.out.print("four ");
+		    }
+		    else if(i=='5'){
+		        System.out.print("five ");
+		    }
+		    else if(i=='6'){
+		        System.out.print("six ");
+		    }
+		    else if(i=='7'){
+		        System.out.print("seven ");
+		    }
+		    else if(i=='8'){
+		        System.out.print("eight ");
+		    }
+		    else if(i=='9'){
+		        System.out.print("nine ");
+		    }
+		    else{
+		        System.out.print("sp ");
+		    }
+		}
+	}
+}
